@@ -3,10 +3,20 @@ Python Socket Streaming
 
 This code is to be deployed for basic data streaming via Sockets
 
+
+
 Codes included
-Server - the host with data to stream - udpdatastream.py
-Controller - the controlling client initiating a data stream - udpcontroller.py
-StreamR - a client to receive the data stream - udpstreamreceiver.py
+
+Server - the host with data to stream - udpdatastream.py 
+
+Controller - the controlling client initiating a data stream - udpcontroller.py 
+
+StreamR - a client to receive the data stream - udpstreamreceiver.py 
+
+
+
+Guide
+
 
 Server is the primary controller and must be up and running before any clients (controller and data StreamR) can connect
 ie:
